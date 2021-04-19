@@ -3,8 +3,9 @@
 ## Overview
 This project was made as the final design project for ECE 4180 - Embedded Systems Design in Spring 2021.
 
-The project idea is a fully functional hovercraft. The hovercraft would use two brushless DC motors. One of the motors, the inflator, inflates the air cushion beneath the hovercraft and gives it enough lift so the other motor, the propeller, can propel the craft. A servo is used to rotate the propeller togive the craft steering capabilities. Commands are given to the craft via a bluetooth connection with a device running the BlueFruit App. A LIDAR sensor is also included to provide early warning and collision avoidance by blinking LEDS and emitting noises from the motors. In the event that the craft gets within 10 cm of an object, the inflator and propeller are disabled, which stops the craft, and the LEDS blink a pattern while the motors are used to make angry chirping noises.
+The project idea is a fully functional hovercraft. The hovercraft would use two brushless DC motors. One of the motors, the inflator, inflates the air cushion beneath the hovercraft and gives it enough lift so the other motor, the propeller, can propel the craft. A servo is used to rotate the propeller togive the craft steering capabilities. Commands are given to the craft via a bluetooth connection with a device running the BlueFruit App. A LIDAR sensor is also included to provide early warning and collision avoidance by blinking LEDS and emitting noises from the motors. In the event that the craft gets within 10 cm of an object, the inflator and propeller are disabled, which stops the craft, and the LEDS blink a pattern while the motors are used to make angry chirping noises.  
 
+![Adafruit App GUI](https://github.com/jdomogala/Hovercraft/blob/main/Hover.JPG?raw=true)  
 
 ## Team Members
 * Jason Domogala
