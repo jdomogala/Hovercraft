@@ -13,15 +13,16 @@ The project idea is a fully functional hovercraft. The hovercraft would use two 
 
 ## Materials 
 ### Electronic Parts
-|  Part Name           |  Part Quantity  |  Product Name                                   |  Product Link                               |
-|----------------------|-----------------|-------------------------------------------------|---------------------------------------------|
-| MBED Microcontroller |        1        | MBED LPC1768                                    | https://os.mbed.com/platforms/mbed-LPC1768/ | 
-| Bluetooth UART       |        1        | Adafruit Bluetooth LE UART Friend               | https://www.adafruit.com/product/2479       | 
-| Servo                |        1        | Hitec HS-422                                    | https://www.sparkfun.com/products/11884     |
-| LIDAR                |        1        | Adafruit VL53LOX Time of Flight Distance Sensor | https://www.adafruit.com/product/3317       |
-| Brushless DC Motor   |        2        | ???????                                         |                                             |
-| 9V 1A Power Supply   |        2        |                                                 |                                             |
-| 5V 2A Power Supply   |        1        |                                                 |                                             |
+|  Part Name           | Part Quantity |  Product Name                                   |  Product Link                                                                        |
+|----------------------|---------------|-------------------------------------------------|--------------------------------------------------------------------------------------|
+| MBED Microcontroller |       1       | MBED LPC1768                                    | https://os.mbed.com/platforms/mbed-LPC1768/                                          | 
+| Bluetooth UART       |       1       | Adafruit Bluetooth LE UART Friend               | https://www.adafruit.com/product/2479                                                | 
+| Servo                |       1       | Hitec HS-422                                    | https://www.sparkfun.com/products/11884                                              |
+| LIDAR                |       1       | Adafruit VL53LOX Time of Flight Distance Sensor | https://www.adafruit.com/product/3317                                                |
+| Brushless DC Motor   |       2       | Thrust Series 1104-6700Kv                       | https://www.amazon.com/BLH-Q-1104-7600Kv-Racing-Motor/dp/B0772WVHGJ                  |
+| ESC                  |       2       | Spedix GS 30A 2-4S/BLHeli_32/Dshot              | https://www.walmart.com/ip/Spedix-GS30-30A-2-4s-BLHeli-32-Dshot-ESC/430749917        |
+| 9V 1A Power Supply   |       2       | 9V 1A Power Supply                              | https://www.amazon.com/Arduino-Power-Supply-Adapter-110V/dp/B018OLREG4               |
+| 5V 2A Power Supply   |       1       | 5V 2A Power Supply                              | https://www.amazon.com/ALITOVE-100V-240V-Converter-5-5x2-1mm-Security/dp/B078RXZM4C/ |
 
 
 ### Other Materials
