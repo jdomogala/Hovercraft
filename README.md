@@ -1,12 +1,3 @@
----
-author: Jason Domogala, Siddhanta Panda
-date: April 19, 2021
-geometry: margin=1in
-title: Hovercraft
-header-includes:
-  - \hypersetup{colorlinks=true}
----
-
 # Mbed Bluetooth Hovercraft
 
 ## Overview
