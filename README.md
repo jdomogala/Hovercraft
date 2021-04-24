@@ -60,14 +60,13 @@ The project idea is a fully functional hovercraft. The hovercraft would use two 
 ## Operation
 ### Setup
 Import, compile, and download the code for the [MBED](https://os.mbed.com/users/spanda38/code/TheHovercraft/)  
-
 Download the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) or [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8)  
 Connect the App to the Bluetooth UART 
 
 ### Instructions
 Below is a picture of the Adafruit App GUI and below that is a table to show the hovercraft response to pressing buttons on the app.
 
-<img align="left" width="218" height="314" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">  
+<img align="left" width="218" height="300" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">  
 
 |  Button        |  Action         |
 |----------------|-----------------|
