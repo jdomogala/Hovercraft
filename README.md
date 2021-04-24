@@ -72,6 +72,7 @@ Below is a picture of the Adafruit App GUI and below that is a table to show the
 |----------------|-----------------|
 | '1 Button'     | Inflate the air cushion by turning on the inflator motor  |
 | '2 Button'     | Turn off the craft and reset it                           |
+| '3 Button'     | Engage the automated control system                       |
 | 'Up Button'    | Increase the speed of the propeller motor                 |
 | 'Down Button'  | Decrease the speed of the propeller motor                 |
 | 'Left Button'  | Turn the propeller motor to the left using the servo      |
