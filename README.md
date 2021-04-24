@@ -1,7 +1,7 @@
 # Mbed Bluetooth Hovercraft
 
 ## Overview
-This project was made as the final design project for ECE 4180 - Embedded Systems Design in Spring 2021. Below is the overview presentation video.
+This project was made as the final design project for ECE 4180 - Embedded Systems Design in Spring 2021. Below is the presentation video.
 
 [![Presentation Video](https://github.com/jdomogala/Hovercraft/blob/main/images/Presentation.JPG?raw=true)](https://www.youtube.com/watch?v=ahHCZ5dAKUU)
 
@@ -86,7 +86,7 @@ The hovercraft can be improved in the following ways:
 
 ## Automation Control Expansion
 A hybrid state space integral control system that has active collsion avoidance. The hovercraft is set to move forward until it sees an object, which it manages speed and direction of the propeller to avoid. The inflator motor is only used in case of shutoff when an object appears too close to avoid.  
-The automated control is activated by pressing the '3 Button' on the Adafruit App GUI. Below is the a video of the automated control.  
+The automated control is activated by pressing the '3 Button' on the Adafruit App GUI. Below is a video of the automated control.  
 
 [![Automation Video](http://i3.ytimg.com/vi/rwRwWCEp8zU/maxresdefault.jpg)](https://www.youtube.com/watch?v=rwRwWCEp8zU)
 
