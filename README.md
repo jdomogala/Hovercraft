@@ -54,7 +54,7 @@ The project idea is a fully functional hovercraft. The hovercraft would use two 
 
 ## Operation
 ### Setup
-Download the code to the [MBED](https://os.mbed.com/users/spanda38/code/TheHovercraft/)
+Import, compile, and download the code for the [MBED](https://os.mbed.com/users/spanda38/code/TheHovercraft/)  
 Download the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) or [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8)  
 Connect the App to the Bluetooth UART 
 
@@ -85,5 +85,7 @@ The hovercraft can be improved in the following ways:
 
 
 ## Automation Control Expansion
-A hybrid state space integral control system that has active collsion avoidance. The hovercraft is set to move forward until it sees an object, which it manages speed and direction of the propeller to avoid. The inflator motor is only used in case of shutoff when an object appears too close to avoid. The automated control is activated by pressing the '3 Button' on the Adafruit App GUI.
+A hybrid state space integral control system that has active collsion avoidance. The hovercraft is set to move forward until it sees an object, which it manages speed and direction of the propeller to avoid. The inflator motor is only used in case of shutoff when an object appears too close to avoid. The automated control is activated by pressing the '3 Button' on the Adafruit App GUI. Below is the a video of the automated control.  
+
+[![Demo Video](http://i3.ytimg.com/vi/rwRwWCEp8zU/maxresdefault.jpg)](https://www.youtube.com/watch?v=rwRwWCEp8zU)
 
