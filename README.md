@@ -66,7 +66,7 @@ Connect the App to the Bluetooth UART
 ### Instructions
 Below is a picture of the Adafruit App GUI and below that is a table to show the hovercraft response to pressing buttons on the app.
 
-<img align = "center" width="218" height="314" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">
+<img align="left" width="218" height="314" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">
 
 |  Button        |  Action         |
 |----------------|-----------------|
