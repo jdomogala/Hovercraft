@@ -73,7 +73,7 @@ Below is a picture of the Adafruit App GUI and below that is a table to show the
 
 ## Video
 Below is a video demonstration of the hovercraft in operation  
-[![Demo Video](https://img.youtube.com/vi/8YloxDpKNwA/hqdefault.jpg)](https://www.youtube.com/watch?v=8YloxDpKNwA)
+[![Demo Video](http://i3.ytimg.com/vi/8YloxDpKNwA/maxresdefault.jpg)](https://www.youtube.com/watch?v=8YloxDpKNwA)
 
 
 ## Improvements
