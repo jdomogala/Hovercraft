@@ -47,12 +47,15 @@ The project idea is a fully functional hovercraft. The hovercraft would use two 
 
 2. The next step is to make the steering and control mechanism. Fasten the servo to the back of the craft with the output facing upwards with tape. Set the servo to its neutral positon and mount the propeller motor onto the servo so it pushes air out the back of the craft. Make sure the propeller is locked in position using cardboard reinforcement and tape as needed. The hovercraft should now look like the picture below.  
 
-![Base and Inflator Assembly](https://github.com/jdomogala/Hovercraft/blob/main/images/Inflator.JPG?raw=true)  
-![Hovercraft Assembly](https://github.com/jdomogala/Hovercraft/blob/main/images/Propeller.JPG?raw=true)  
+<p align = "center">
+<img width="651" height="392" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Propeller.JPG">
+</p> 
 
 3. The last step is to wire up the hovercraft. Mount the LIDAR facing out the front of the hovercraft using tape. Place the breadboard behind the LIDAR and wire the componenets according to the wiring diagram shown in the picture below.  
 
-![Hovercraft Wiring Diagram](https://github.com/jdomogala/Hovercraft/blob/main/images/Wiring.JPG?raw=true)
+<p align = "center">
+<img width="765" height="532" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Wiring.JPG">
+</p> 
 
 ## Operation
 ### Setup
