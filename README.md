@@ -1,11 +1,13 @@
 # Mbed Bluetooth Hovercraft
 
 ## Overview
-This project was made as the final design project for ECE 4180 - Embedded Systems Design in Spring 2021.
+This project was made as the final design project for ECE 4180 - Embedded Systems Design in Spring 2021. Below is the overview presentation video.
+
+[![Presentation Video](https://github.com/jdomogala/Hovercraft/blob/main/Presentation.JPG?raw=true)](https://www.youtube.com/watch?v=ahHCZ5dAKUU)
 
 The project idea is a fully functional hovercraft. The hovercraft would use two brushless DC motors. One of the motors, the inflator, inflates the air cushion beneath the hovercraft and gives it enough lift so the other motor, the propeller, can propel the craft. A servo is used to rotate the propeller togive the craft steering capabilities. Commands are given to the craft via a bluetooth connection with a device running the BlueFruit App. A LIDAR sensor is also included to provide early warning and collision avoidance by blinking LEDS and emitting noises from the motors. In the event that the craft gets within 10 cm of an object, the inflator and propeller are disabled, which stops the craft, and the LEDS blink a pattern while the motors are used to make angry chirping noises.  
 
-![Adafruit App GUI](https://github.com/jdomogala/Hovercraft/blob/main/Hover.JPG?raw=true)  
+![Hovercraft](https://github.com/jdomogala/Hovercraft/blob/main/Hover.JPG?raw=true)  
 
 ## Team Members
 * Jason Domogala
@@ -52,7 +54,7 @@ The project idea is a fully functional hovercraft. The hovercraft would use two 
 
 ## Operation
 ### Setup
-Download the bin file to the MBED  
+Download the code to the [MBED](https://os.mbed.com/users/spanda38/code/TheHovercraft/)
 Download the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) or [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8)  
 Connect the App to the Bluetooth UART 
 
@@ -65,13 +67,13 @@ Below is a picture of the Adafruit App GUI and below that is a table to show the
 | '1 Button'     | Inflate the air cushion by turning on the inflator motor  |
 | '2 Button'     | Turn off the craft and reset it                           |
 | 'Up Button'    | Increase the speed of the propeller motor                 |
-| 'Down Button'  | Decrease the speed of the propellor motor                 |
+| 'Down Button'  | Decrease the speed of the propeller motor                 |
 | 'Left Button'  | Turn the propeller motor to the left using the servo      |
 | 'Right Button' | Turn the propeller motor to the right using the servo     |  
 
 ## Video
 Below is a video demonstration of the hovercraft in operation  
-[![Watch the video](https://img.youtube.com/vi/8YloxDpKNwA/hqdefault.jpg)](https://www.youtube.com/watch?v=8YloxDpKNwA)
+[![Demo Video](https://img.youtube.com/vi/8YloxDpKNwA/hqdefault.jpg)](https://www.youtube.com/watch?v=8YloxDpKNwA)
 
 
 ## Improvements
@@ -80,3 +82,8 @@ The hovercraft can be improved in the following ways:
 * Rudder system instead of turning the propeller (This will allow for better thrust vectoring and control)
 * Adding another inflator fan (This will allow for more lift and increase the air layer significantly)
 * Using battery packs for power (This will increase weight and require a lot more thrust from the motors but allow for remote operation)
+
+
+## Automation Control Expansion
+A hybrid state space integral control system that has active collsion avoidance. The hovercraft is set to move forward until it sees an object, which it manages speed and direction of the propeller to avoid. The inflator motor is only used in case of shutoff when an object appears too close to avoid. The automated control is activated by pressing the '3 Button' on the Adafruit App GUI.
+
