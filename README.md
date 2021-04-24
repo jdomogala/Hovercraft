@@ -60,13 +60,14 @@ The project idea is a fully functional hovercraft. The hovercraft would use two 
 ## Operation
 ### Setup
 Import, compile, and download the code for the [MBED](https://os.mbed.com/users/spanda38/code/TheHovercraft/)  
+
 Download the Adafruit Bluetooth Connect App for [Android](https://play.google.com/store/apps/details?id=com.adafruit.bluefruit.le.connect&hl=en_US) or [iOS](https://itunes.apple.com/us/app/adafruit-bluefruit-le-connect/id830125974?mt=8)  
 Connect the App to the Bluetooth UART 
 
 ### Instructions
 Below is a picture of the Adafruit App GUI and below that is a table to show the hovercraft response to pressing buttons on the app.
 
-<img align="left" width="218" height="314" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">
+<img align="left" width="218" height="314" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">  
 
 |  Button        |  Action         |
 |----------------|-----------------|
@@ -78,8 +79,10 @@ Below is a picture of the Adafruit App GUI and below that is a table to show the
 | 'Left Button'  | Turn the propeller motor to the left using the servo      |
 | 'Right Button' | Turn the propeller motor to the right using the servo     |  
 
+
 ## Video
-Below is a video demonstration of the hovercraft in operation  
+Below is a video demonstration of the hovercraft in operation.  
+
 [![Demo Video](http://i3.ytimg.com/vi/8YloxDpKNwA/maxresdefault.jpg)](https://www.youtube.com/watch?v=8YloxDpKNwA)
 
 
