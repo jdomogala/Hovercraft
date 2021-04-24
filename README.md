@@ -85,7 +85,8 @@ The hovercraft can be improved in the following ways:
 
 
 ## Automation Control Expansion
-A hybrid state space integral control system that has active collsion avoidance. The hovercraft is set to move forward until it sees an object, which it manages speed and direction of the propeller to avoid. The inflator motor is only used in case of shutoff when an object appears too close to avoid. The automated control is activated by pressing the '3 Button' on the Adafruit App GUI. Below is the a video of the automated control.  
+A hybrid state space integral control system that has active collsion avoidance. The hovercraft is set to move forward until it sees an object, which it manages speed and direction of the propeller to avoid. The inflator motor is only used in case of shutoff when an object appears too close to avoid.  
+The automated control is activated by pressing the '3 Button' on the Adafruit App GUI. Below is the a video of the automated control.  
 
-[![Demo Video](http://i3.ytimg.com/vi/rwRwWCEp8zU/maxresdefault.jpg)](https://www.youtube.com/watch?v=rwRwWCEp8zU)
+[![Automation Video](http://i3.ytimg.com/vi/rwRwWCEp8zU/maxresdefault.jpg)](https://www.youtube.com/watch?v=rwRwWCEp8zU)
 
