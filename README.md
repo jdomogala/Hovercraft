@@ -64,8 +64,9 @@ Download the Adafruit Bluetooth Connect App for [Android](https://play.google.co
 Connect the App to the Bluetooth UART 
 
 ### Instructions
-Below is a picture of the Adafruit App GUI and below that is a table to show the hovercraft response to pressing buttons on the app  
-![Adafruit App GUI](https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png?raw=true)
+Below is a picture of the Adafruit App GUI and below that is a table to show the hovercraft response to pressing buttons on the app.
+
+<img align = "center" width="218" height="314" src="https://github.com/jdomogala/Hovercraft/blob/main/images/Adafruit.png">
 
 |  Button        |  Action         |
 |----------------|-----------------|
